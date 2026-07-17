@@ -35,7 +35,8 @@ def koch_snowflake(order, scale=10):
     x, y = points.real, points.imag
     return x, y
 
- 
+
+# generiere Plot 
 x, y = koch_snowflake(order=8)
 plt.figure(figsize=(8, 8))
 plt.axis('equal')
