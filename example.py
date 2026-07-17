@@ -37,8 +37,9 @@ def koch_snowflake(order, scale=10):
 
 
 # generiere Plot 
+
 x, y = koch_snowflake(order=8)
-plt.figure(figsize=(8, 8))
+plt.figure(figsize=(7, 7))
 plt.axis('equal')
 plt.fill(x, y)
 plt.savefig("koch_snowflake.pdf", dpi=300)
